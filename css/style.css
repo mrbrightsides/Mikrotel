@@ -98,7 +98,7 @@ nav.navbar {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 100;
     font-family: 'Roboto', sans-serif;
     background: #0c2326;
     min-height: 95px;
@@ -544,12 +544,13 @@ h3.blog_head {
 .ovarlay_slide_cont {
     background: rgba(5,3,0,0.63);
     position: absolute;
+	border-radius: 5px;
     width: 60%;
     margin: 0 15%;
-    z-index: 1111111111;
+    z-index: 1;
     top: 135px;
     left: 0;
-    padding: 50px 60px 70px;
+    
 }
 
 .ovarlay_slide_cont h2 {
@@ -1018,7 +1019,7 @@ footer .item h4 {
     width: 70%;
     margin: 0 15%;
     z-index: 1111111111;
-    top: 0;
+    top: 135px;
     left: 0;
     padding: 50px 60px 70px;
 }
